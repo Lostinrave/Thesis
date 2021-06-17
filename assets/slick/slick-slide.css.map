@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,QAAQ,EAAE,QAAQ;CACrB;;AACD,AAAA,iBAAiB,CAAC;EACd,QAAQ,EAAE,QAAS;EACnB,GAAG,EAAE,GAAG;EACR,OAAO,EAAE,IAAI;CAIhB;;AAPD,AAII,iBAJa,AAIZ,MAAM,CAAC;EACJ,OAAO,EAAE,KAAK;CACjB",
+    "mappings": "AAEA,AAAA,eAAe,CAAC;EACd,QAAQ,EAAE,QAAQ;CACnB;;AACD,AAAA,iBAAiB,CAAC;EAChB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;EAER,OAAO,EAAE,KAAK;EACd,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,OAAO;CACpB;;AACD,AAAA,eAAe,AAAA,MAAM,CAAC,iBAAiB,CAAC;EAEtC,OAAO,EAAE,CAAC;CAEX",
     "sources": [
-        "slick-slide.scss"
+        "slick-slide.scss",
+        "../sass/variables.scss"
     ],
     "names": [],
     "file": "slick-slide.css"

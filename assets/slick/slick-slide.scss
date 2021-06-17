@@ -1,11 +1,18 @@
-.slider-img {
-    position: relative;
+@import "../sass/variables.scss";
+
+.slick-relative {
+  position: relative;
 }
 .slider-img-hover {
-    position: absolute ;
-    top: 0px;
-    display: none;
-    &:hover {
-        display: block;
-    }
+  position: absolute;
+  top: 0px;
+ 
+  z-index: 10000;
+  opacity: 0;
+  transition: 1s ease;
+}
+.slick-relative:hover .slider-img-hover {
+
+  opacity: 1;
+
 }
