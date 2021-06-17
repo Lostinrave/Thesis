@@ -1,1 +1,14 @@
-/* No CSS *//*# sourceMappingURL=slick-slide.css.map */
+.slider-img {
+  position: relative;
+}
+
+.slider-img-hover {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+
+.slider-img-hover:hover {
+  display: block;
+}
+/*# sourceMappingURL=slick-slide.css.map */

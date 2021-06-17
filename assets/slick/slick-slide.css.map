@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,QAAQ,EAAE,QAAQ;CACrB;;AACD,AAAA,iBAAiB,CAAC;EACd,QAAQ,EAAE,QAAS;EACnB,GAAG,EAAE,GAAG;EACR,OAAO,EAAE,IAAI;CAIhB;;AAPD,AAII,iBAJa,AAIZ,MAAM,CAAC;EACJ,OAAO,EAAE,KAAK;CACjB",
     "sources": [
         "slick-slide.scss"
     ],

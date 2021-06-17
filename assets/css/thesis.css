@@ -1,3 +1,18 @@
+/*local import files */
+.slider-img {
+  position: relative;
+}
+
+.slider-img-hover {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+
+.slider-img-hover:hover {
+  display: block;
+}
+
 .infotechno-bg {
   background: #f4efe9 none repeat scroll 0% 0%;
 }
