@@ -1,0 +1,45 @@
+@import "../sass/variables.scss";
+
+.infotechno-bg {
+  background: #f4efe9 none repeat scroll 0% 0%;
+}
+/* Main Left collumn CSS start */
+.infotechno-hero-text {
+  max-width: 605px;
+  float: right;
+  width: 100%;
+  padding-left: 30px;
+  h6 {
+    color: #086ad8;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+}
+.font-weight--reguler {
+  font-weight: 500;
+  font-size: 56px;
+}
+.btn-main {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  padding: 15px 35px;
+}
+/* Main Left collumn CSS end */
+
+/* Main right collumn CSS start */
+
+.infotechno-hero-inner-images {
+    margin-top: 20px;
+}
+.infotechno-inner-one {
+    position: absolute;
+    top: 10px;
+}
+.infotechno-inner-two {
+    z-index: 1;
+    position: relative;
+}
+
+
+/* Main right collumn CSS end */
