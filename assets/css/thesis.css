@@ -174,5 +174,14 @@ body {
   height: 30px;
 }
 
+.under-heading {
+  margin-top: 60px;
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.40;
+  color: #333333;
+}
+
 /* Features cards CSS end */
 /*# sourceMappingURL=thesis.css.map */
