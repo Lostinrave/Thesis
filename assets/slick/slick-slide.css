@@ -7,8 +7,12 @@
   top: 0px;
   z-index: 10000;
   opacity: 0;
-  -webkit-transition: 1s ease;
-  transition: 1s ease;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
 }
 
 .slick-relative:hover .slider-img-hover {
