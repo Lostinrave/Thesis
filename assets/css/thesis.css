@@ -1,12 +1,42 @@
 /*local import files */
+/*Font Awesome*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+/*Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+/* MDB */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css");
 .slick-relative {
   position: relative;
+}
+
+.slick-slide {
+  height: 150px;
+}
+
+.slider-wrapper {
+  display: block;
+  height: 150px;
+}
+
+.slider-img {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .slider-img-hover {
   position: absolute;
   top: 0px;
   width: 100%;
+  height: 100%;
   z-index: 10000;
   opacity: 0;
   -webkit-transition-delay: 0s;
@@ -15,10 +45,31 @@
           transition-duration: 0.4s;
   -webkit-transition-timing-function: linear;
           transition-timing-function: linear;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .slick-relative:hover .slider-img-hover {
   opacity: 1;
+}
+
+body {
+  line-height: 1.74;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  visibility: visible;
+  font-family: "Roboto", sans-serif;
+  color: #222;
+  position: relative;
+  background-color: #ffffff;
 }
 
 .infotechno-bg {
@@ -40,7 +91,7 @@
 }
 
 .font-weight--reguler {
-  font-weight: 500;
+  font-weight: 900;
   font-size: 56px;
 }
 
@@ -68,4 +119,25 @@
 }
 
 /* Main right collumn CSS end */
+/* Features wrapper CSS start */
+.features-wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-sub-title {
+  color: #ababab;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  line-height: 1.43;
+  margin-top: -5px;
+}
+
+.heading {
+  font-size: 46px;
+  font-weight: 900;
+}
+
+/* Features wrapper CSS end */
 /*# sourceMappingURL=thesis.css.map */

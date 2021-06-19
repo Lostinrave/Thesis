@@ -1,6 +1,30 @@
 /*local import files */
+
+/*Font Awesome*/
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+/*Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+/* MDB */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css");
+
 @import "../sass/variables.scss";
 @import "../slick/slick-slide.scss";
+
+body {
+  line-height: 1.74;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  visibility: visible;
+  font-family: "Roboto", sans-serif;
+  color: #222;
+  position: relative;
+  background-color: #ffffff;
+}
 
 .infotechno-bg {
   background: #f4efe9 none repeat scroll 0% 0%;
@@ -18,7 +42,7 @@
   }
 }
 .font-weight--reguler {
-  font-weight: 500;
+  font-weight: 900;
   font-size: 56px;
 }
 .btn-main {
@@ -32,16 +56,36 @@
 /* Main right collumn CSS start */
 
 .infotechno-hero-inner-images {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 .infotechno-inner-one {
-    position: absolute;
-    top: 10px;
+  position: absolute;
+  top: 10px;
 }
 .infotechno-inner-two {
-    z-index: 1;
-    position: relative;
+  z-index: 1;
+  position: relative;
 }
 
-
 /* Main right collumn CSS end */
+
+/* Features wrapper CSS start */
+
+.features-wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section-sub-title {
+  color: #ababab;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  line-height: 1.43;
+  margin-top: -5px;
+}
+.heading {
+  font-size: 46px;
+  font-weight: 900;
+}
+
+/* Features wrapper CSS end */
