@@ -7,11 +7,15 @@
 .slider-img-hover {
   position: absolute;
   top: 0px;
+  width: 100%;
   z-index: 10000;
   opacity: 0;
   transition-delay: 0s;
   transition-duration: 0.4s;
   transition-timing-function: linear;
+  img {
+    vertical-align: middle;
+  }
 
 }
 .slick-relative:hover .slider-img-hover {

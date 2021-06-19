@@ -3,13 +3,10 @@
   position: relative;
 }
 
-.slick-relative img {
-  margin: 0 auto;
-}
-
 .slider-img-hover {
   position: absolute;
   top: 0px;
+  width: 100%;
   z-index: 10000;
   opacity: 0;
   -webkit-transition-delay: 0s;
@@ -18,10 +15,6 @@
           transition-duration: 0.4s;
   -webkit-transition-timing-function: linear;
           transition-timing-function: linear;
-}
-
-.slider-img-hover img {
-  margin: 0 auto;
 }
 
 .slick-relative:hover .slider-img-hover {
