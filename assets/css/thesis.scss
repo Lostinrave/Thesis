@@ -11,8 +11,6 @@
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css");
 
-
-
 @import "../sass/variables.scss";
 @import "../slick/slick-slide.scss";
 
@@ -26,6 +24,9 @@ body {
   color: #222;
   position: relative;
   background-color: #ffffff;
+}
+a {
+  color: #333333
 }
 
 .infotechno-bg {
@@ -92,8 +93,10 @@ body {
 
 /* Features wrapper CSS end */
 
-
 /* Features cards CSS start */
+.features-cards {
+  margin: 60px 50px 30px 63px;
+}
 .card-wrapper {
   position: relative;
 }
@@ -110,21 +113,74 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  .fa-arrow-right {
+    font-size: 25px;
+    width: 20px;
+    height: 30px;
+  }
 }
-.fa-arrow-right {
-  font-size: 25px;
-  width: 20px;
-  height: 30px;
-}
+
 .under-heading {
   margin-top: 60px;
   padding-top: 30px;
   font-size: 18px;
-    font-weight: 500;
-    line-height: 1.40;
-    color: #333333;
-    a{
-      
-    }
+  font-weight: 500;
+  line-height: 1.4;
+  color: #333333;
+  a {
+  }
 }
 /* Features cards CSS end */
+
+/* Section experience CSS start */
+
+
+.section-experience {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.infotechno-section-bg-01 {
+  background: url(https://demo.hasthemes.com/mitech-preview/assets/images/patterns/mitech-home-infotechno-section-company-bg.png)
+      top 140px left no-repeat,
+    -webkit-linear-gradient(top, #fff 0, #f5f5f5 100%);
+}
+
+
+.list-item {
+  position: relative;
+  padding: 0;
+  margin-bottom: 62px;
+  &:hover link{
+    color: #086ad8;
+  }
+  .list-header {
+    display: flex;
+  }
+  .marker {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-right: 10px;
+    min-width: 45px;
+    color: #ababab;
+
+
+  }
+}
+
+.title-wrap {
+  overflow: hidden;
+  .title {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-top: 14px;
+    padding-top: 20px;
+    padding-right: 15px;
+    .fa-arrow-right {
+      font-size: 20px;
+
+    }
+  }
+}
+
+/* Section experience CSS end*/
